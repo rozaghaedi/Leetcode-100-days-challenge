@@ -6,14 +6,19 @@
 
 ---
 
-## 📝 Notes
 
 ### 1. Two Sum
-- **Approach**: Use a HashMap (dictionary) to store numbers and their indices while iterating.  
-- **Complexity**:  
-  - Time: O(n)  
-  - Space: O(n)  
-- **Key Idea**: For each number, check if `target - num` already exists in the map.
+
+
+This code solves the **Two Sum** problem.  
+Given a list of integers (`nums`) and a target number (`target`), the goal is to find **two numbers** in the list whose sum equals the target and return their **indices**.
+
+#### Example
+
+```python
+nums = [2, 7, 11, 15]
+target = 9
+# Output: [0, 1]
 
 ---
 
