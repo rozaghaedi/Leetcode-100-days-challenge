@@ -2,8 +2,5 @@
 
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        # Negative numbers are not palindrome
-        if x < 0:
-            return False
-        # Convert to string and check equality with reverse
-        return str(x) == str(x)[::-1]
+        s = str(x)          # Convert number to string
+        return s == s[::-1]  # Compare with its reversed string
